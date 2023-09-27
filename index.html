@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <h1 style="text-align: center;"><img src="./img/ss.png" alt="" style="width: 2rem;">Weather App
+        </h1>
+        <div class="searchBar">
+            <input type="text" placeholder="enter city name">
+            <button type="button" class="btn"><img src="./img/magnifier.png"></button>
+        </div>
+        <div style="width: 40%;margin: auto;" class="IMG">
+            <img src="./img/error.png" style="width: 100%;">
+        </div>
+        <div style="display: flex;padding: 0 60px;background-color: rgba(234, 231, 108, 0.502);border-radius:80px;">
+            <div style="width:40%;height: auto;margin: 20px auto;">
+                <p class="title">城市</p>
+                <p style="font-size: 2rem;text-align: center;" class="weather">天氣現象</p>
+                <div class="time"></div>
+            </div>
+            <div style="display: flex;flex-direction: column;justify-content: space-around;flex-wrap: nowrap;">
+                <p><img src="./img/hot.png" style="width: 24px;">溫度:<span class="temp"></span></p>
+                <p><img src="./img/heavy.png" style="width: 24px;">降雨機率:<span class="rains"></span></p>
+                <p><img src="./img/storm.png" style="width: 24px;">最大風速:<span class="winds"></span></p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="./weather.js"></script>
+</body>
+
+</html>

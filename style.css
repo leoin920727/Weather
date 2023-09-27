@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+body {
+    background-color: rgb(107, 161, 241);
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    align-items: center;
+}
+
+div.main {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 0px #000000;
+}
+
+.btn {
+    background-color: #00000000;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.btn:hover {
+    background-color: #82828277;
+    box-shadow: 1px 1px 10px 0px #000000;
+    transition: 0.3s ease-out;
+}
+
+input {
+    margin: 0 auto;
+    font-size: 1rem;
+    padding: 10px;
+    width: 85%;
+    border: #000000 2px solid;
+    border-radius: 20px;
+    text-align: center;
+}
+
+input::placeholder {
+    font-size: 1.5rem;
+    color: #000000;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.searchBar {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: min-content;
+    width: 100%;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.time {
+    font-size: 0.5rem;
+    font-weight: 700;
+}
+
+/* .rains,
+.temp,
+.winds {
+    font-weight: 700;
+} */
